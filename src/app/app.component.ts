@@ -17,4 +17,9 @@ export class AppComponent {
     this.taskList.splice(index,1);
   }
 
+  test(){
+    console.log("Akcja na enter down");
+    
+  }
+
 }
